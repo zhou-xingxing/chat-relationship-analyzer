@@ -1,0 +1,9 @@
+# 本地私有聊天样例与环境变量不得上传至 Vercel。
+.private/
+.env*
+
+# 本地缓存与测试产物不属于部署源码。
+.pnpm-store/
+test-results/
+playwright-report/
+*.tsbuildinfo

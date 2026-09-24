@@ -1,0 +1,31 @@
+# 本地环境变量和密钥
+.env*
+!.env.example
+
+# 仅供本地解析验证的私有样例，不得提交
+/.private/
+
+# 内部规划文档：本地保留，不进入公开仓库
+/todo.md
+/IMPLEMENTATION_PLAN.md
+
+# Vercel CLI 的本地项目关联信息
+/.vercel/
+
+# 依赖、构建与测试产物
+/node_modules/
+/.next/
+/coverage/
+/playwright-report/
+/test-results/
+/.pnpm-store/
+*.tsbuildinfo
+
+# 编辑器与系统文件
+.DS_Store
+.idea/
+.vscode/
+.vercel
+
+# Agent 工具的本地个人配置，不入库（项目级共享配置 settings.json 仍可提交）
+.claude/settings.local.json
